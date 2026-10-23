@@ -1,4 +1,3 @@
-//import logo from '../assets/images/opcionlaser.jpeg';
 import logo from '../assets/images/opcionlaser.png';
 
 import bettyBoopVideo from '../assets/videos/betty-boop.mp4';

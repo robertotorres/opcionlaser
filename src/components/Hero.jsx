@@ -1,6 +1,4 @@
 import { mediaData } from '../data/mediaData.js';
-import { socialLinks } from '../data/socialLinks.js';
-import { ArrowDown } from 'lucide-react';
 
 function Hero() {
   const heroImage = mediaData.images.hero;  
@@ -23,27 +21,9 @@ function Hero() {
           </h1>
           <p className="hero-enter hero-enter-delay-2 mt-6 max-w-xl text-base leading-7 text-white/80 sm:text-lg">
             Nombres, fechas y diseños propios, grabados con precisión para convertir productos en recuerdos personales.
-          </p>
-          <div className="hero-enter hero-enter-delay-3 mt-9 flex flex-col items-stretch gap-3 min-[420px]:flex-row min-[420px]:items-center">
-            <a className="btn-primary focus-visible:outline-offset-4 focus-visible:outline-white" href={socialLinks.whatsapp} rel="noreferrer" target="_blank">
-              Cotizar por WhatsApp
-            </a>
-            <a className="btn-secondary focus-visible:outline-offset-4 focus-visible:outline-white" href="#trabajos">
-              Ver Trabajos
-            </a>
-          </div>
-        </div>
-        <div aria-hidden="true" className="hero-enter hero-enter-delay-2 hidden justify-self-end border-l border-laser-gold/70 py-3 pl-6 lg:block">
-          <p className="text-xs font-semibold tracking-[0.18em] text-laser-gold uppercase">De la idea al detalle</p>
-          <p className="mt-3 max-w-48 text-sm leading-6 text-white/80">Una pieza personal. Un acabado hecho con cuidado.</p>
-        </div>
+          </p>          
+        </div>        
       </div>
-      <a className="absolute bottom-7 left-1/2 z-10 inline-flex -translate-x-1/2 items-center gap-3 whitespace-nowrap text-[0.65rem] font-semibold tracking-[0.16em] text-white/65 uppercase transition-colors hover:text-laser-gold focus-visible:text-laser-gold motion-reduce:transition-none" href="#servicios">
-        <span aria-hidden="true" className="grid size-9 place-items-center rounded-full border border-white/25">
-          <ArrowDown className="size-4" strokeWidth={1.6} />
-        </span>
-        Desplázate para explorar
-      </a>
     </section>
   );
 }

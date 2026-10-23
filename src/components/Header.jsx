@@ -4,7 +4,6 @@ import { mediaData } from '../data/mediaData.js';
 import { socialLinks } from '../data/socialLinks.js';
 
 const navigation = [
-  ['Servicios', '#servicios'],
   ['Trabajos', '#trabajos'],
   ['Videos', '#videos'],
   ['Proceso', '#proceso'],
@@ -32,6 +31,14 @@ function Header() {
 
     window.addEventListener('keydown', closeOnEscape);
     return () => window.removeEventListener('keydown', closeOnEscape);
+  }, [isMenuOpen]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 20 && isMenuOpen) setIsMenuOpen(false);
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
   }, [isMenuOpen]);
 
   const closeMenu = () => setIsMenuOpen(false);
