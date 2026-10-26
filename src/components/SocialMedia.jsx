@@ -36,8 +36,8 @@ function SocialMedia() {
             Encuéntranos en redes.
           </h2>
 
-          <p className="mt-3 text-sm text-graphite/65">
-            Descubre nuevos trabajos, procesos de grabado láser y contenido exclusivo.
+          <p className="mt-3 max-w-lg text-sm text-graphite/65">
+            Descubre nuevos trabajos de grabado láser personalizado en Hermosillo, termos personalizados, regalos únicos y proyectos especiales realizados para clientes de Sonora.
           </p>
         </div>
 

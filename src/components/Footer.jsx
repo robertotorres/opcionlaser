@@ -39,7 +39,7 @@ function Footer() {
             </a>
 
             <p className="mt-5 max-w-xs text-sm leading-6 text-white/60">
-              Grabado láser personalizado para transformar ideas y regalos en piezas hechas para durar.
+              Grabado láser personalizado en Hermosillo, Sonora. Creamos termos, regalos personalizados y piezas únicas con diseños hechos a tu medida.
             </p>
           </div>
 
@@ -96,7 +96,7 @@ function Footer() {
             </h2>
 
             <p className="mb-3 max-w-xs text-sm leading-6 text-white/60">
-              ¿Tienes un proyecto en mente? Conversemos por WhatsApp.
+              Atendemos pedidos de grabado láser personalizado en Hermosillo y otras ciudades de Sonora.
             </p>
 
             <div className="mt-4 flex flex-wrap gap-3">

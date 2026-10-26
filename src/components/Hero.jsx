@@ -12,7 +12,7 @@ function Hero() {
         <div className="max-w-4xl">
           <p className="hero-enter mb-6 flex items-center gap-3 text-xs font-semibold tracking-[0.2em] text-laser-gold uppercase sm:text-sm">
             <span aria-hidden="true" className="h-px w-8 bg-laser-gold" />
-            Grabado láser personalizado
+            Grabado láser personalizado en Hermosillo
           </p>
           <h1 className="hero-enter hero-enter-delay-1 max-w-4xl text-5xl leading-[0.98] font-semibold sm:text-7xl lg:text-8xl">
             Hazlo único.
@@ -20,8 +20,8 @@ function Hero() {
             <span className="text-laser-gold">Hazlo tuyo.</span>
           </h1>
           <p className="hero-enter hero-enter-delay-2 mt-6 max-w-xl text-base leading-7 text-white/80 sm:text-lg">
-            Nombres, fechas y diseños propios, grabados con precisión para convertir productos en recuerdos personales.
-          </p>          
+            Grabado láser personalizado en Hermosillo, Sonora. Diseños para termos, regalos personalizados, artículos promocionales y piezas únicas hechas a tu medida.
+          </p>
         </div>        
       </div>
     </section>
